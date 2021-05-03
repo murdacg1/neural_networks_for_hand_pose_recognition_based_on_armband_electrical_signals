@@ -4,7 +4,7 @@ Modeling finger pose based on time-series sensor measurements by using SVM and n
 
 Introduction
 
-The surface electromyography (sEMG)-based gesture recognition with a deep learning approach and real-time recognition can become important in practical, advanced human-computer interaction. The sEMG signal is obtained by an armband with non-invasive skin-contact sEMG electrodes. The electrical activity recorded allows development of a human-computer interface system which can be emplyed in a number of areas: Assistive or Rehabilitative technology (e.g., myoelectric controlled prosthesis or assistive robots or even sEMG-driven exoskeletons); Serious games and advanced, intuitive and more natural input and simulation control; and Silent speech recognition. For additional information and background, see, e.g.:
+The surface electromyography (sEMG)-based gesture recognition with a deep learning approach and real-time recognition can become important in practical, advanced human-computer interaction. The sEMG signal is obtained by an armband with non-invasive skin-contact sEMG electrodes. The electrical activity recorded allows development of a human-computer interface system which can be employed in a number of areas: Assistive or Rehabilitative technology (e.g., myoelectric controlled prosthesis or assistive robots or even sEMG-driven exoskeletons); Serious games and advanced, intuitive and more natural input and simulation control; and Silent speech recognition. For additional information and background, see, e.g.:
 
 0. Wikipedia, Human?computer interaction. https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction
 
@@ -16,7 +16,7 @@ The surface electromyography (sEMG)-based gesture recognition with a deep learni
 
 Data overview
 
-The data consists of synchronised sensor readings and labels from multiple sequences of different gestures and hand movements collected for one hand collected at approx. 50Hz. The sensor data/features consists of 30-dimensional vectors (the number of channels in our current wristband) and 5-dimensional groundtruth/labels vectors (the number of fingers in a hand). Thus, each sequence is composed of a feature vector X (t x 30) and a label vector Y (t x 5). The sensors readings are collected at 10-bit resolution, [0, 1024].
+The data consists of synchronized sensor readings and labels from multiple sequences of different gestures and hand movements collected for one hand collected at approx. 50Hz. The sensor data/features consists of 30-dimensional vectors (the number of channels in our current wristband) and 5-dimensional groundtruth/labels vectors (the number of fingers in a hand). Thus, each sequence is composed of a feature vector X (t x 30) and a label vector Y (t x 5). The sensors readings are collected at 10-bit resolution, [0, 1024].
 
 Goal of this project
 
