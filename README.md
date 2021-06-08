@@ -1,4 +1,4 @@
-# neural_networks_for_hand_pose_recognition_based_on_armband_eletrical_signals
+# neural_networks_for_hand_pose_recognition_based_on_armband_electrical_signals
 
 Modeling finger pose based on time-series sensor measurements by using SVM and neural network models for the 5-dimensional regression problem
 
